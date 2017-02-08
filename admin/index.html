@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]>    <html class="ie9" lang="en" data-ng-app="singular"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" data-ng-app="zuunnastAdmin">
+<!--<![endif]-->
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="description" content="{{app.description}}">
+   <meta name="keywords" content="app, responsive, angular, bootstrap, dashboard, admin">
+   <title data-ng-bind="pageTitle()">Зуун наст эмийн үйлдвэр ХХК</title>
+   <!-- App CSS-->
+   <link rel="stylesheet" href="app/css/app.css" data-ng-if="!app.layout.isRTL">
+   <link rel="stylesheet" href="app/css/apprtl.css" data-ng-if="app.layout.isRTL">
+</head>
+
+<body data-ng-class="{ 'layout-fixed' : app.layout.isFixed, 'aside-collapsed' : app.sidebar.isCollapsed, 'layout-boxed' : app.layout.isBoxed, 'aside-slide' : app.sidebar.slide, 'in-app': $state.includes('app')}">
+   <div data-ui-view="" data-autoscroll="false" data-ng-class="app.viewAnimation" class="app-container"></div>
+   <!-- App Scripts-->
+   <script src="app/js/base.js"></script>
+   <script src="app/js/app.js"></script>
+   <script src="app/vendor/tinymce/tinymce.min.js"></script>
+   <script src="app/js/tinymce.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+   <script src="https://cdn.firebase.com/libs/angularfire/2.1.0/angularfire.min.js"></script>
+   <script src="app/vendor/ng-file-upload/ng-file-upload-all.min.js"></script>
+</body>
+
+</html>

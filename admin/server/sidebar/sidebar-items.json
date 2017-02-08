@@ -1,0 +1,11 @@
+[
+  {
+    "text": "Үндсэн цэс",
+    "type": "heading"
+  },
+  {
+    "text": "Мэдээ мэдээлэл",
+    "sref": "app.posts",
+    "icon": "icon-bar-graph"
+  }
+]
