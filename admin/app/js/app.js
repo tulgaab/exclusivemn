@@ -2,7 +2,7 @@ if (typeof $ === 'undefined') { throw new Error('This application\'s JavaScript 
 
 
 
-var App = angular.module('zuunnastAdmin', ['ngRoute', 'ngAnimate', 'ngStorage', 'ngCookies', 'pascalprecht.translate', 'ui.bootstrap', 'ui.router', 'oc.lazyLoad', 'cfp.loadingBar', 'ui.utils','firebase','ui.tinymce','ngFileUpload'])
+var App = angular.module('exclusiveAdmin', ['ngRoute', 'ngAnimate', 'ngStorage', 'ngCookies', 'pascalprecht.translate', 'ui.bootstrap', 'ui.router', 'oc.lazyLoad', 'cfp.loadingBar', 'ui.utils','firebase','ui.tinymce','ngFileUpload'])
     .run(["$rootScope", "$state", "$stateParams", '$localStorage', function ($rootScope, $state, $stateParams, $localStorage) {
     // Set reference to access them from any scope
     $rootScope.$state = $state;
@@ -12,7 +12,7 @@ var App = angular.module('zuunnastAdmin', ['ngRoute', 'ngAnimate', 'ngStorage', 
     // Scope Globals
     // ----------------------------------- 
     $rootScope.app = {
-      name: 'Зуун наст эмийн үйлдвэр',
+      name: 'ЭКСКЛЮЗИВЧЭНЖ ХХК',
       description: 'Удирдлагын хэсэг',
       year: ((new Date()).getFullYear()),
       viewAnimation: 'ng-fadeInLeft2',
@@ -167,11 +167,11 @@ App.config(['$stateProvider','$urlRouterProvider', '$controllerProvider', '$comp
       });
 
       var config = {
-          apiKey: "AIzaSyBVUG6_-oMMiheGh--b2PlDgLsK9g1-Ens",
-          authDomain: "zuunnast-1b0b1.firebaseapp.com",
-          databaseURL: "https://zuunnast-1b0b1.firebaseio.com",
-          storageBucket: "zuunnast-1b0b1.appspot.com",
-          messagingSenderId: "60171925495"
+        apiKey: "AIzaSyDhx9IZsBNTLvival_UsZYRITq5Qx0I6ew",
+        authDomain: "exclusive-7e764.firebaseapp.com",
+        databaseURL: "https://exclusive-7e764.firebaseio.com",
+        storageBucket: "exclusive-7e764.appspot.com",
+        messagingSenderId: "445846977354"
       };
       firebase.initializeApp(config);
 
