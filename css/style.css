@@ -32,23 +32,7 @@
 	++++Css-animation ++++
 	++++Responsive++++
 */
-/*-------------Import fonts ---------------------------------------*/
-@font-face {
-	font-family:'FuturaPT-Book';
-	src: url('../fonts/FuturaPT-Book_gdi.eot');
-	src: url('../fonts/FuturaPT-Book_gdi.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/FuturaPT-Book_gdi.woff') format('woff'),
-		url('../fonts/FuturaPT-Book_gdi.ttf') format('truetype'),
-		url('../fonts/FuturaPT-Book_gdi.svg#FuturaPT-Book') format('svg');
-}
-@font-face {
-	font-family:'futurastd-bold';
-	src: url('../fonts/futurastd-bold.eot');
-	src: url('../fonts/futurastd-bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/futurastd-bold.woff') format('woff'),
-		url('../fonts/futurastd-bold.ttf') format('truetype'),
-		url('../fonts/futurastd-bold.svg#FuturaPT-Book') format('svg');
-}
+
 /*-------------General Style---------------------------------------*/
 html{
 	overflow-x:hidden !important;
@@ -57,8 +41,8 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'FuturaPT-Book';
-	font-weight: 400;
+	font-family: 'Roboto';
+	font-weight: 300;
 	font-size: 12px;
 	color: #000;
 	background:#f9f9f9;
@@ -1162,7 +1146,8 @@ nav li ul a.act-link {
 	text-align:left;
 	font-size: 16px;
 	text-transform:uppercase;
-	font-family:'futurastd-bold';
+	font-family:'Roboto';
+	font-weight: 400;
 	color:#fff;
 	padding-bottom:10px;
 }
@@ -1233,7 +1218,8 @@ nav li ul a.act-link {
 .inline-facts h6 {
 	font-size: 12px;
 	text-transform:uppercase;
-	font-family:'futurastd-bold';
+	font-family:'Roboto';
+	font-weight: 400;
 	padding-top:10px;
 	color:#666;
 }
@@ -1324,7 +1310,8 @@ nav li ul a.act-link {
 .testi-item h3 {
 	font-size: 15px;
 	text-transform:uppercase;
-	font-family:'futurastd-bold';
+	font-family:'Roboto';
+	font-weight: 400;
 	padding:20px 0;
 	color:#fff;
 }
@@ -1367,7 +1354,8 @@ nav li ul a.act-link {
 	margin-top:30px;
 	font-size: 12px;
 	text-transform:uppercase;
-	font-family:'futurastd-bold';
+	font-family:'Roboto';
+	font-weight: 400;
 	margin-top:30px;
 	color:#fff;
 	position:relative;	
@@ -1535,7 +1523,7 @@ footer {
 	position:relative;
 	float:left;
 	width:100%;
-	font-family:'futurastd-bold';
+	font-family:'Roboto';
 	color:#fff;
 }
 .grid-item h3 a {
@@ -1811,7 +1799,8 @@ footer {
 	float:left;
 	text-align:left;
 	font-size:25px;
-	font-family:'futurastd-bold';
+	font-family:'Roboto';
+	font-weight: 400;
 	width:100%;
 	color:#292929;
 	margin-top:20px;
@@ -1920,7 +1909,8 @@ footer {
     transition: all 200ms linear;
 }
 .content-nav li a span {
-	font-family:'futurastd-bold';
+	font-family:'Roboto';
+	font-weight: 400;
 	text-transform:uppercase; 
 	padding-right:20px;
 	font-size:18px;
@@ -2017,7 +2007,7 @@ footer {
 }
 .port-desc-holder .grid-item h3 {
 	font-size:30px;
-	font-family: 'FuturaPT-Book';
+	font-family: 'Roboto';
 	letter-spacing:2px;
 }
 .port-desc-holder .grid-item h3:hover {
@@ -2170,7 +2160,8 @@ footer {
 	padding:5px 0;
 	position:relative;
 	text-transform:uppercase;
- 	font-family:'futurastd-bold';
+ 	font-family:'Roboto'
+	font-weight:400;
 	letter-spacing:2px;
 	text-align:left;
 }
@@ -2206,7 +2197,8 @@ figure img {
 	padding-bottom:20px;
 	font-size:24px;
 	color:#666;
-	font-family:'futurastd-bold';
+	font-family:'Roboto'
+	font-weight:400;
 	letter-spacing:1px;
 }
 .column-container {
@@ -2601,7 +2593,8 @@ article .btn {
 	position:relative;
 	font-size:20px;
 	color:#666;
-	font-family:'futurastd-bold';
+	font-family:'Roboto'
+	font-weight:400;
 	letter-spacing:1px;
 	padding-bottom:20px;
 }
@@ -2632,7 +2625,8 @@ article .btn {
 	margin-top:10px;
 	color:#666;
 	font-size:14px;
-		font-family:'futurastd-bold';
+	font-family:'Roboto'
+	font-weight:400;
 }
 .searh-holder {
 	max-width:450px;
@@ -2718,7 +2712,8 @@ article .btn {
 	float:left;
 	font-size:32px;
 	text-align:left;
-	font-family:'futurastd-bold';
+	font-family:'Roboto'
+	font-weight:400;
 	text-transform:uppercase;
 	width:100%;
 } 
@@ -2734,7 +2729,8 @@ article .btn {
 .blog-title   li {
 	float:left;
 	text-align:left;
-	font-family:'futurastd-bold';
+	font-family:'Roboto'
+	font-weight:400;
 	text-transform:uppercase;
 	margin-bottom:10px;
 	color:#666;
@@ -2755,12 +2751,13 @@ article .btn {
 .blog-text h3  , .comment-form-holder h3 , .comments-holder h3 , .project-details h3{
 	font-size:16px;
 	text-align:left;
-	font-family:'futurastd-bold';
+	font-family:'Roboto'
+	font-weight:400;
 	text-transform:uppercase;
 	margin-bottom:10px;
 }
 .comments-holder h3 span {
-	font-family: 'FuturaPT-Book';
+	font-family: 'Roboto';
 	font-weight: 400;
 } 
 .project-details h3 {
