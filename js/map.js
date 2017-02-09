@@ -17,8 +17,8 @@
         marker: {
 			// markers and locations------------------
             values: [ {
-                latLng: [ 40.7143528, -74.0059731 ],
-                data: "Our office  - New York City",
+                latLng: [ 47.9399558,106.7026875 ],
+                data: "Байршил - Улаанбаатар хот",
                 options: {
                     icon: "images/marker.png"
                 }
@@ -57,7 +57,7 @@
         },
         map: {
             options: {
-                zoom: 14,
+                zoom: 10,
                 zoomControl: true,
                 mapTypeControl: true,
                 scaleControl: true,
