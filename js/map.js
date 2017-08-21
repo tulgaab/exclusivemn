@@ -17,8 +17,8 @@
         marker: {
 			// markers and locations------------------
             values: [ {
-                latLng: [ 47.9399558,106.7026875 ],
-                data: "Байршил - Улаанбаатар хот",
+                latLng: [ 47.918090, 106.912144 ],
+                data: "Монгол, Улаанбаатар хот, ЧД 1-р хороо А/4-р байр 1 давхарт 19 тоот (Цэцэг төвийн хойно)",
                 options: {
                     icon: "images/marker.png"
                 }
@@ -57,7 +57,7 @@
         },
         map: {
             options: {
-                zoom: 10,
+                zoom: 15,
                 zoomControl: true,
                 mapTypeControl: true,
                 scaleControl: true,
